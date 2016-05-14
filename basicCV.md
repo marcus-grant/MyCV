@@ -9,7 +9,7 @@ linkedIn: https://www.linkedin.com/in/marcusfredrickgrant
 github: github.com/marcus-grant
 site: thepatternbuffer.com
 
-## Bio (condensed)
+## Condensed Bio
 +Personal experience programming and modifying computers and electronics since middle school
 +Educated as Electrical Engineer with focus on Robotics and Embedded Systems and a Business Administration minor
 +Work experience as Digital Systems Engineer, Embedded Systems Engineer, and most recently as a Business Analyst, which made me realize I need to work in a field I feel passionate about, software development
