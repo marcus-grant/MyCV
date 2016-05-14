@@ -5,7 +5,7 @@ My Personal CV directory, which I use to update the textual information of each 
 
 # Credit
 
-+ A lot of layout conventions come from posquit0 who's latex project *Awesome CV* is located here in github at [Awesome CV](https://github.com/posquit0/Awesome-CV "posquit0/AwesomeCV repo @ github")
++ A lot of layout conventions come from [posquit0/Awesome-CV](https://github.com/posquit0/Awesome-CV "posquit0/AwesomeCV repo @ github")
 + The integrations of FontAwesome comes from [plorcupine/latex-fontawesome](https://github.com/plorcupine/latex-fontawesome)
 
 
