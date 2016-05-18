@@ -1,0 +1,72 @@
+% MyCV LaTeX Template
+% 
+% Author:
+% Marcus Grant
+% marcus.grant@thepatternbuffer.com
+% https://github.com/marcus-grant/MyCV
+%
+% Heavily inspired by Claud D. Park's Awesome-CV
+% https://github.com/posquit0/Awesome-CV
+% 
+% License:
+% Creative Commons BY-SA 4.0
+% https://creativecommons.org/licenses/by-sa/4.0/
+%
+
+%%%%%%%%%%%%%%%%%%%%% Global Definitions & Configs %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%<- Character 1                                                Character 80 ->%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% Theme: Setting - configure later
+\documentclass[11pt,letterpaper]{awesome-cv}
+
+%%%% Define location for sections directory storing CV/resume sections of tex
+\newcommand*{\sectiondir}{sections/}
+
+%%%% Define location for fonts directory
+\fontdir[fonts/]
+
+%%%% Define page margins
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+%%%% Define colors
+\colorlet{awesome}{awesome-orange}
+
+
+%%%%%%%%%%%%%%%%%%%%%%% Personal Information Section %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Move this into its own section within /sections later
+
+\name{Marcus}{Grant}
+\address{125 W 31st street Apt. Ph A, New York, NY, 10001, USA}
+\mobile{(+1) (978) 857-5462}
+\email{marcus.grant@thepatternbuffer.com}
+\homepage{www.thepatternbuffer.com}
+\github{marcus-grant}
+\linkedin{marcusfredrickgrant}
+
+\position{Software Developer{\enskip\cdotp\enskip}Electrical Engineer}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Content %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%%%% Generate header using personal info
+\makecvheader
+
+%%%% Footer that has three arguments representing left, center, & right
+\makecvfooter
+    {\today}
+    {Marcus Grant·Résumé}
+    {\thepage}
+
+
+%%%% Import contents of .tex files from /section directory
+%%%% These contain the textual and formatting data for each section
+\input{sections/summary.tex}
+\input{sections/skills.tex}
+\input{sections/education.tex}
+\input{sections/experience.tex}
+
+\end{document}
