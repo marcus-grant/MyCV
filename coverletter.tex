@@ -1,0 +1,131 @@
+% MyCV LaTeX Template
+%
+% Author:
+% Marcus Grant
+% marcus.grant@thepatternbuffer.com
+% https://github.com/marcus-grant/MyCV
+%
+% Heavily inspired by Claud D. Park's Awesome-CV
+% https://github.com/posquit0/Awesome-CV
+%
+% License:
+% Creative Commons BY-SA 4.0
+% https://creativecommons.org/licenses/by-sa/4.0/
+%
+
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, letter]{awesome-cv}
+
+% Configure page margins with geometry
+% \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-skyblue}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%%%%%%%%%%%%%%%%%%%%%%% Personal Information Section %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%% Move this into its own section within /sections later
+
+\name{Marcus}{Grant}
+\address{125 W 31st street Apt. Ph A, New York, NY, 10001, USA}
+\mobile{(+1) (978) 857-5462}
+\email{marcus.grant@thepatternbuffer.com}
+\homepage{www.thepatternbuffer.com}
+\github{marcus-grant}
+\linkedin{marcusfredrickgrant}
+
+\position{Software Developer{\enskip\cdotp\enskip}Electrical Engineer}
+
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Company Recruitment Team}
+  {Prolific Interactive}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+%\lettertitle{Job Application for Software Engineer}
+% How the letter is opened
+\letteropening{Dear Recruiting Manager}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+%\letterenclosure[Attached]{Resume}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Marcus Grant~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+\lettersection{Cover letter}
+If you’re looking for a software developer that understands how software works from the transistor-level up to high-level frameworks? Then look no further!
+
+I’ve been tinkering with electronics, computers, and software since I was a child, helping my grandfather with his computer repair shop. Eventually, I went to Rochester Institute of Technology to earn a degree in electrical engineering with a focus in robotics and embedded systems, and a minor in business administration. Among several required internships for my degree, I also worked as an embedded systems developer for ABB, an industrial robotics firm where I learned to love developing software in a professional capacity.
+
+At my father's behest, I attempted a year in the family business of management consulting and finance but found it wasn’t for me so I enrolled in the Flatiron School for iOS app development and instantly fell in love with the platform, as I returned my career focus back to a technical field. Since everyone now has a pocket computer, I really love the idea that I can fashion the tools, games, and electronic accessories that now get used more than the conventional desktop or laptop software. As such our final project was an app my peers at the Flatiron School and I jokingly called, “SubWaze,” which serves to improve predictions of the arrival and departure times of New York’s MTA trains. I had to make the model classes that stores, modifies and updates with the Parse cloud service that stored our live timetables with the local data store contained within iOS’s Core Data framework, as well as some of the classes that used Core Graphics to draw custom views. From this project and my experience at the school, I’ve found that I love working in teams and that when presented with interesting problems to solve in software engineering I have no problem working long hours to solve them.
+
+With that in mind, when I first heard about Prolific from one of your co-workers, and friend from the Flatiron School, Yoseob Lee; I became very excited about the possibility to work for a company with such a varied portfolio of apps and phenomenal model of development operations. I heard one of your developers speak at the Brooklyn Swift conference about a month ago and was impressed at how quickly you’ve adopted Swift into your codebase and how you approached learning the new language and integrating it, within the company's workflow.
+
+I think I offer a wide field of competence of computing technology with my background in electrical engineering on top of software development that beyond just standard iOS and Cocoa development , that could be leveraged in just about any app that requires development. I haven’t found any concept in software development too difficult or uninteresting enough to learn quickly, and I think that stems from my understanding of how computers work from an atomic level. So I hope you will consider my resume, and the provided links to projects, profiles, and my site, which are represented as links inside the PDF version of my resume, as you review my application.
+
+
+%\lettersection{Why Google?}
+%Suspendisse commodo, massa eu congue tincidunt, elit mauris pellentesque orci, cursus tempor odio %nisl euismod augue. Aliquam adipiscing nibh ut odio sodales et pulvinar tortor laoreet. Mauris a %accumsan ligula. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos %himenaeos. Suspendisse vulputate sem vehicula ipsum varius nec tempus dui dapibus. Phasellus et %st urna, ut auctor erat. Sed tincidunt odio id odio aliquam mattis. Donec sapien nulla, feugiat %eget adipiscing sit amet, lacinia ut dolor. Phasellus tincidunt, leo a fringilla consectetur, %felis diam aliquam urna, vitae aliquet lectus orci nec velit. Vivamus dapibus varius blandit.
+
+%\lettersection{Why Me?}
+%Duis sit amet magna ante, at sodales diam. Aenean consectetur porta risus et sagittis. Ut %interdum, enim varius pellentesque tincidunt, magna libero sodales tortor, ut fermentum nunc %metus a ante. Vivamus odio leo, tincidunt eu luctus ut, sollicitudin sit amet metus. Nunc sed %orci lectus. Ut sodales magna sed velit volutpat sit amet pulvinar diam venenatis.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
