@@ -16,6 +16,7 @@
 %%%%%%%%%%%%%%%%%%%%% Global Definitions & Configs %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %<- Character 1                                                Character 80 ->%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\RequirePackage{unicode-math}
 
 %%%% Theme: Setting - configure later
 \documentclass[11pt,letterpaper]{awesome-cv}
@@ -30,21 +31,23 @@
 \geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
 
 %%%% Define colors
-\colorlet{awesome}{awesome-orange}
+% \colorlet{awesome}{awesome-orange}
+\definecolor{awesome}{HTML}{663399}
 
 
 %%%%%%%%%%%%%%%%%%%%%%% Personal Information Section %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%% Move this into its own section within /sections later
 
 \name{Marcus}{Grant}
-\address{125 W 31st street Apt. Ph A, New York, NY, 10001, USA}
+\address{961 Willoughby Ave. Apt. 1i, Brooklyn, NY, 11221, USA}
 \mobile{(+1) (978) 857-5462}
-\email{marcus.grant@thepatternbuffer.com}
-\homepage{www.thepatternbuffer.com}
+\email{marcusfg@gmail.com}
+\homepage{patternbuffer.io}
 \github{marcus-grant}
 \linkedin{marcusfredrickgrant}
 
-\position{Software Developer{\enskip\cdotp\enskip}Electrical Engineer}
+%\position{Software Engineer{\enskip\cdotp\enskip}Electrical Engineer}
+\position{Full Stack Software Engineer}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Content %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -68,11 +71,11 @@
 \input{sections/skills.tex}
 \input{sections/education.tex}
 \input{sections/experience.tex}
-\pagebreak
+% \pagebreak
 
 %%%%%%%%%%%%%%%%%%%%%%% Personal Information Section %%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%% Move this into its own section within /sections later
-\makecvheader
+% \makecvheader
 %\name{Marcus}{Grant}
 %\address{125 W 31st street Apt. Ph A, New York, NY, 10001, USA}
 %\mobile{(+1) (978) 857-5462}
@@ -83,8 +86,8 @@
 
 %\position{Software Developer{\enskip\cdotp\enskip}Electrical Engineer}
 
-\vspace {1 mm}
-\input{sections/projects.tex}
+% \vspace {1 mm}
+% \input{sections/projects.tex}
 
 
 \end{document}
